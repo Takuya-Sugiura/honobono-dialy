@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+
+/* CSSのリセット（消さないでください） */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /*font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;*/
+}
+
+li {
+  list-style: none;
+}
+header {
+  background-color: rgb(158, 150, 150);
+  opacity: 0.6;  
+  height:90px;
+}
+.header-logo {
+  font-family: 'Yusei Magic', sans-serif;
+  padding-top:20px;
+  padding-left:30px;
+}
+.header-list {
+  text-align:right;
+  padding-right:20px;
+}
+.author {
+  font-family: 'Caveat', cursive ;
+  padding:0 15px;
+}
+.icon {
+  padding:0 5px;
+  display:inline;
+}
+body {
+  background-size:cover;
+  background-attachment:fixed;
+  background-image: url(picture/apple.jpg)  
+}
+section {
+  background-color:rgb(245, 240, 240, 0.40);
+
+}
+.top-container p{
+  text-align:center;
+}
+.comment {
+  font-family: 'Potta One', cursive;
+  font-size:30px;
+  padding-top:80px;
+}
+.life {
+  padding-top:50px;
+  font-size:20px;
+  font-family: 'Sawarabi Gothic', sans-serif;
+}
+.goal {
+  font-size:15px;
+}
+.chart {
+  padding:20px 200px;
+  font-family: 'Hachi Maru Pop', cursive;
+}
+.chart table {
+  width:500px;
+  table-layout:auto;
+  background-color:white;
+  opacity:0.6;
+  border-collapse:collapse;
+  border:1px solid gray;
+}
+.container {
+  width:1000px;
+  padding:0 15px;
+  margin:0 auto;
+  height:300px;  
+}
+.contents {
+  float:left;
+  width:200px;
+  margin:20px;
+  background-color:white;
+  opacity:0.6;
+  text-align:center;
+  position:relative;
+  border-radius:4px;
+  padding:25px 0;
+  height:120px;
+}
+a:hover {
+  background-color:white;
+}
+.item {
+  position:absolute;
+  top:20px;
+  width:100%;
+  font-size:120%;
+  font-family: 'Hachi Maru Pop', cursive;
+}
+.fas {
+  font-size:500%;
+  color:gray;
+  opacity:0.4;
+}
+footer {
+  background-color: rgb(158, 150, 150);
+  opacity: 0.6;  
+}
+.footer-coment {
+  font-family: 'Yusei Magic', sans-serif;
+  padding:5px;
+}
+.footer-list {
+  text-align:right;
+  padding-right:20px;
+}
+.meal-comment {
+  font-family: 'M PLUS 1p', sans-serif;
+  padding:100px 0 50px 200px;
+}
+.qualify {
+  padding:0 0 50px 200px;
+  line-height:20px;
+}
+.detail-container {
+  letter-spacing:5px;
+  line-height:50px;
+  padding:50px 0 50px 200px;
+}
+.picutre {
+  padding-top:50px;
+  height:300px;
+}
