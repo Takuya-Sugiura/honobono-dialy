@@ -41,7 +41,7 @@ header {
 body {
   background-size:cover;
   background-attachment:fixed;
-  background-image: url(picture/apple.jpg)  
+  background-image: url(apple.jpg)  
 }
 section {
   background-color:rgb(245, 240, 240, 0.40);
